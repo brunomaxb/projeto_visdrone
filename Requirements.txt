@@ -1,0 +1,25 @@
+# Core
+numpy==1.26.4
+pandas==2.2.2
+
+# Plotting / utils
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# Deep Learning (CPU wheels for broad compatibility; update if you use CUDA)
+torch==2.2.2
+torchvision==0.17.2
+torchaudio==2.2.2
+
+# Vision & Training
+opencv-python==4.9.0.80
+PyYAML==6.0.1
+tqdm==4.66.4
+scipy==1.13.1
+
+# Ultralytics CLI (modern YOLO). If you strictly use the classic yolov5 repo, you may omit this.
+ultralytics==8.2.71
+
+# Jupyter
+jupyter==1.0.0
+ipykernel==6.29.5
